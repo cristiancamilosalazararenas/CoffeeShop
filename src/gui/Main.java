@@ -28,6 +28,7 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
+        System.out.println("Proyecto cargando.");
         this.users = new ArrayList();
         table_users.setModel(this.tableModel);
     }
